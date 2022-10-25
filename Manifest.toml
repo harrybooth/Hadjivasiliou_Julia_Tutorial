@@ -2,7 +2,7 @@
 
 julia_version = "1.8.0"
 manifest_format = "2.0"
-project_hash = "aff20ac6a10fb755c62973dbb45938804271d04f"
+project_hash = "dcc6caa14e78d5e31b0f085d225239283a90f0df"
 
 [[deps.ANSIColoredPrinters]]
 git-tree-sha1 = "574baf8110975760d391c710b6341da1afa48d8c"
@@ -1467,6 +1467,12 @@ deps = ["AutoHashEquals", "DataStructures", "Dates", "DocStringExtensions", "Par
 git-tree-sha1 = "0f39bc7f71abdff12ead4fc4a7d998fb2f3c171f"
 uuid = "e9d8d322-4543-424a-9be4-0cc815abe26c"
 version = "1.3.5"
+
+[[deps.MethodAnalysis]]
+deps = ["AbstractTrees"]
+git-tree-sha1 = "69d5c89c5d3af15e73d0cdb7482411c156e3f810"
+uuid = "85b6ec6f-f7df-4429-9514-a64bcd9ee824"
+version = "0.4.11"
 
 [[deps.MethodOfLines]]
 deps = ["Combinatorics", "DiffEqBase", "DomainSets", "IfElse", "Interpolations", "Latexify", "LinearAlgebra", "ModelingToolkit", "NonlinearSolve", "OrdinaryDiffEq", "SafeTestsets", "SciMLBase", "StableRNGs", "StaticArrays", "SymbolicUtils", "Symbolics", "TermInterface", "Test"]
